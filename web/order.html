@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJT Restaurant</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+       
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <form action="Login" method="post">
+    </form>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <a href="#" title="Logo">
+                <img src="D:\ajt\images\log.png" alt="" class="img-responsive ">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="foods.html">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+    
+                <form method="post" action="order">
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                   
+                    
+                    
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="Enter your name" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9843xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="Enter Your email  " class="input-responsive" required>
+                    <br>
+                    <select name="food">
+                        <option>Select  your food</option>
+                        <option>Pizza</option>
+                        <option>Burger</option>
+                        <option>Maggie</option>
+                         <option>sandwhich</option>
+                    </select>
+                        select quantity
+                        <input name="qa" type="number" min="1" max="10">
+                  
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+                </form>
+
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+    <!-- social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">decoders[Nit-mohit]</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>

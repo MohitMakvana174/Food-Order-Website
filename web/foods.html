@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+        
+    
+       <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+        <div class="container-fluid">
+            <a href="#" title="Logo">
+                <img src="D:\ajt\images\log.png" alt="" class="img-responsive ">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="categories.html">Category</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="foods.html">Food</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+   <!-- Navbar Section Ends Here -->
+
+    <!-- fOOD sEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+            
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <a href="category-foods.html">
+                <div class="box-3 float-container">
+                    <img src="images/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="images/burger.jpg" alt="Burger" class="img-responsive img-curve">
+
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="box-3 float-container">
+                    <img src="images/momo.jpg" alt="Momo" class="img-responsive img-curve">
+
+                    <h3 class="float-text text-white">Momo</h3>
+                </div>
+            </a>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="container">
+            <h2 class="text-center">Food Menu</h2>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/piz.jpg" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Pizza</h4>
+                    <p class="food-price">249</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, and organice vegetables.
+                    </p>
+                    <br>
+
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Smoky Burger</h4>
+                    <p class="food-price">99</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce,  and organice vegetables.
+                    </p>
+                    <br>
+
+        
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/piz.jpg"  class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Noodles</h4>
+                    <p class="food-price">149</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, and organice vegetables.
+                    </p>
+                    <br>
+
+
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg"  class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Dosa</h4>
+                    <p class="food-price">120</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, organice vegetables.
+                    </p>
+                    <br>
+
+                
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-pizza.jpg" class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4>Meggi</h4>
+                    <p class="food-price">210</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce, organice vegetables.
+                    </p>
+                    <br>
+
+    
+                </div>
+            </div>
+
+            <div class="food-menu-box">
+                <div class="food-menu-img">
+                    <img src="images/menu-momo.jpg"  class="img-responsive img-curve">
+                </div>
+
+                <div class="food-menu-desc">
+                    <h4> Steam Momo</h4>
+                    <p class="food-price">199</p>
+                    <p class="food-detail">
+                        Made with Italian Sauce,organice vegetables.
+                    </p>
+                    <br>
+                </div>
+            
+        
+         
+                
+            <a href="order.html" class="btn btn-primary" >Order Now</a>
+             <a href="cancelOrder.html" class="btn btn-primary">Cancel Order</a>
+            </div> 
+
+    </section>
+  
+</body>
+</html>
